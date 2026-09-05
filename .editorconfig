@@ -1,0 +1,11 @@
+# https://editorconfig.org
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+insert_final_newline = true
+
+# Java は upstream の Eclipse フォーマッタ定義に従う。
+# jakartaee/servlet の api/etc/config/ee4j-eclipse-formatting.xml を
+# formatter-maven-plugin が適用するため、ここでは指定しない。
