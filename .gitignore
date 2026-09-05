@@ -12,3 +12,6 @@ out/
 
 # Claude Code のローカル設定（マシン固有の権限許可リスト等）
 .claude/settings.local.json
+
+# Claude 用の作業メモ（本人向けではない）
+MEMORY.md
